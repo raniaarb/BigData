@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  netflix1:
+    build: .
+    ports:
+      - "5001:5000"
+
+  netflix2:
+    build: .
+    ports:
+      - "5002:5000"
+
+  netflix3:
+    build: .
+    ports:
+      - "5003:5000"
